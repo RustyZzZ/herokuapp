@@ -26,7 +26,7 @@ public class MainController {
         return "Saved";
     }
 
-    @GetMapping
+    @GetMapping("/getGay")
     public String getGayGuy() {
         return guyService.getGayGuy()
                          .getName();
